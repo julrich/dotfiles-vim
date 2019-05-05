@@ -1,0 +1,1 @@
+../../../../incsearch-easymotion.vim

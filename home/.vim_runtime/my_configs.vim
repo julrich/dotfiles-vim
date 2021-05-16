@@ -150,3 +150,11 @@ hi link IncSearchUnderline Cursor
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 set noshowmode
 set cmdheight=1
+
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Copied from the deprecation notice of snipMate:
+" Setting g:snipMate.snippet_version to either 0 or 1 will remove the start up
+" message. One way this can be done--to use the new parser--is as follows:
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+let g:snipMate = { 'snippet_version' : 1 }
